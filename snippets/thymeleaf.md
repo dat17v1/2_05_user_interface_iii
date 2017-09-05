@@ -1,9 +1,3 @@
-${stu.studentId}    
-
-````java   
-<tr th:each="student: ${std}">
-   <td th:text="${student.studentId}"/>
-````   
 
 ````java    
 
@@ -13,4 +7,15 @@ ${stu.studentId}
         return "index";
     }
 
+````  
+
+
+````java   
+   ${stu.studentId} 
+````    
+
+````java   
+<tr th:each="student: ${std}">
+   <td th:text="${student.studentId}"/>
 ````   
+ 

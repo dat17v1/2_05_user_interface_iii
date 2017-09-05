@@ -19,3 +19,4 @@
    <td th:text="${student.studentId}"/>
 ````   
  
+* [Standard Expression Syntax](http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf.html#standard-expression-syntax)
